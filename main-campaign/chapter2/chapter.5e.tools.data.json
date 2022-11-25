@@ -1,1 +1,132 @@
-Carrion Ravens
+[
+    {
+		"name": "Carrion Raven",
+		"source": "GooeyCube-main1-chapter2-GM-ref",
+		"page": 17,
+		"srd": true,
+		"otherSources": [
+			
+		],
+		"size": [
+			"T"
+		],
+		"type": "beast",
+		"alignment": [
+			"N"
+		],
+		"ac": [
+			{
+				"ac": 12,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 5,
+			"formula": "2d4"
+		},
+		"speed": {
+			"walk": 10,
+            "fly": 60
+		},
+		"str": 11,
+		"dex": 14,
+		"con": 10,
+		"int": 2,
+		"wis": 10,
+		"cha": 5,
+		"senses": [
+			"darkvision 60 ft."
+		],
+		"passive": 10,
+		"immune": [
+		],
+		"vulnerable": [
+		],
+		"conditionImmune": [
+		],
+		"languages": [
+		],
+		"cr": "1/8",
+		"trait": [
+			{
+				"name": "Flyby",
+				"entries": [
+					"The Carrion Raven doesn’t provoke opportunity attacks when it flies out of an enemy’s reach."
+				]
+            },
+            {
+                "name": "Keen Smell",
+				"entries": [
+					"The Carrion Raven has advantage on Wisdom (Perception) checks that rely on scent (they can smell fresh blood)."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Melee attack. Beak",
+				"entries": [
+					"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+				]
+			}
+		],
+		"environment": [
+		],
+		"traitTags": [
+			"Flyby", "Keen Smell"
+		],
+		"senseTags": [
+		],
+		"languageTags": [
+		
+		],
+		"damageTags": [
+		],
+		"miscTags": [
+		],
+		"conditionInflict": [
+		],
+		"hasToken": true,
+		"hasFluff": true,
+		"hasFluffImages": false,
+		"__prop": "monster",
+		"_pTypes": {
+			"type": "beast",
+			"tags": [],
+			"asText": "Beast"
+		},
+		"_pCr": "2",
+		"_fCr": [
+			"1/8"
+		],
+		"_fSpeedType": [
+			"fly"
+		],
+		"_fSpeed": 60,
+		"_fAc": [
+			12
+		],
+		"_fHp": 5,
+		"_fAlign": [
+			"N"
+		],
+		"_fEnvironment": [
+		],
+		"_fVuln": [
+		],
+		"_fRes": [],
+		"_fImm": [
+		],
+		"_fCondImm": [
+		],
+		"_fSave": [],
+		"_fSkill": [],
+		"_fSources": [
+			
+		],
+		"_fPassive": 10,
+		"_fLanguageTags": [
+		]
+	},
+]
