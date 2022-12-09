@@ -129,4 +129,277 @@
 		"_fLanguageTags": [
 		]
 	},
+	{
+		"name": "Wretched Walker",
+		"source": "GooeyCube-main1-chapter2-GM-ref",
+		"page": 17,
+		"srd": true,
+		"otherSources": [
+			
+		],
+		"size": [
+			"M"
+		],
+		"type": "undead",
+		"alignment": [
+			"N", "E"
+		],
+		"ac": [
+			{
+				"ac": 10,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 13,
+			"formula": "2d8+4"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 13,
+		"dex": 8,
+		"con": 15,
+		"int": 2,
+		"wis": 5,
+		"cha": 2,
+		"senses": [
+			"darkvision 60 ft."
+		],
+		"passive": 7,
+		"immune": [ "poison"
+		],
+		"vulnerable": [
+		],
+		"conditionImmune": ["poisoned"
+		],
+		"languages": ["none"
+		],
+		"cr": "1/4",
+		"trait": [
+			{
+				"name": "Brainrot",
+				"entries": [
+					"If the Wretched Walker hits with a biting attack, the target must immediately pass a DC 12 Constitution saving throw or become infected by the Wretched Walker’s Brain Rot. The victim must make the same Constitution saving throw every 24 hours they go without receiving treatment. Failing the save causes their Intelligence to be reduced by 1. If their Intelligence reaches 0, their mind is completely consumed and they become a Wretched Walker themselves. After receiving treatment, they will have disadvantage on Intelligence checks and saving throws until they’ve completed a long rest, after which the infection fully breaks"
+				]
+            }
+		],
+		"action": [
+			{
+				"name": "Multi-attack",
+				"entries": [
+					"The Wretched Walker makes two attacks, one Slam attack, and one Bite attack. Slam. Melee Weapon Attack: +3 to hit, one target. Hit: 4 (1d6+1) bludgeoning damage. Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1)",
+					"Slam {@atk mw} {@hit 3} to hit, ({@damage 1d6+1}) bludgeoning damage.",
+					"Bite {@hit 3} to hit, ({@damage 1d4+1}) piercing damage."
+				]
+			}
+		],
+		"environment": [
+		],
+		"traitTags": [
+			"Brainrot"
+		],
+		"senseTags": [
+		],
+		"languageTags": [
+		
+		],
+		"damageTags": [
+		],
+		"miscTags": [
+		],
+		"conditionInflict": [
+		],
+		"hasToken": true,
+		"hasFluff": true,
+		"hasFluffImages": false,
+		"__prop": "monster",
+		"_pTypes": {
+			"type": "undead",
+			"tags": [],
+			"asText": "Undead"
+		},
+		"_pCr": "2",
+		"_fCr": [
+			"1/4"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			10
+		],
+		"_fHp": 13,
+		"_fAlign": [
+			"N"
+		],
+		"_fEnvironment": [
+		],
+		"_fVuln": [
+		],
+		"_fRes": [],
+		"_fImm": [
+		],
+		"_fCondImm": [
+		],
+		"_fSave": [],
+		"_fSkill": [],
+		"_fSources": [
+			
+		],
+		"_fPassive": 7,
+		"_fLanguageTags": [
+		]
+	},
+	{
+		"name": "Wereverine",
+		"group": [
+			"Lycanthropes"
+		],
+		"source": "GooeyCube-main1-chapter2-GM-ref",
+		"page": 18,
+		"srd": true,
+		"otherSources": [
+			
+		],
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"human",
+				"shapechanger"
+			]
+		},
+		"alignment": [
+			"C", "E"
+		],
+		"ac": [
+			{
+				"ac": 13,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 22,
+			"formula": "3d8 + 9"
+		},
+		"speed":  {
+			"walk": {
+				"number": 30,
+				"condition": "(40 ft. in wolf form)"
+			}
+		},
+		"str": 17,
+		"dex": 15,
+		"con": 16,
+		"int": 12,
+		"wis": 15,
+		"cha": 12,
+		"skill": {
+			"deception": "+3",
+			"stealth": "+4"
+		},
+		"senses": [
+			"darkvision 60 ft."
+		],
+		"passive": 14,
+		"immune": [
+		],
+		"vulnerable": [
+		],
+		"conditionImmune": [
+		],
+		"languages": [
+			"Common (can't speak in wolf form)"
+		],
+		"cr": "1",
+		"trait": [
+			{
+				"name": "Shapechanger",
+				"entries": [
+					"The Wereverine can use a bonus action to polymorph into a specific Medium Human, a Wolverine-Humanoid hybrid, or into a Small wolverine. Other than its size, its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true hybrid form if it dies."
+				]
+			},
+			{
+				"name": "Bloodlust",
+				"entries": [
+					"The Wereverine has advantage on attacks against any creature with current hit points less than its hit point maximum."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multi-attack",
+				"entries": [
+					"The Wereverines makes two attacks, one Bite attack, and one Claw attack.",
+					"Bite {@hit 5} to hit, ({@damage 1d4+3}) piercing damage.",
+					"Slam {@atk mw} {@hit 5} to hit, ({@damage 2d4+3}) slashing damage."
+				]
+			}
+		],
+		"environment": [
+		],
+		"traitTags": [
+			"Bloodlust", "Shapechanger"
+		],
+		"senseTags": [
+		],
+		"languageTags": [
+		
+		],
+		"damageTags": [
+		],
+		"miscTags": [
+		],
+		"conditionInflict": [
+		],
+		"hasToken": true,
+		"hasFluff": true,
+		"hasFluffImages": false,
+		"__prop": "monster",
+		"_pTypes": {
+			"type": "undead",
+			"tags": [],
+			"asText": "Undead"
+		},
+		"_pCr": "2",
+		"_fCr": [
+			"1/4"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 40,
+		"_fAc": [
+			10
+		],
+		"_fHp": 22,
+		"_fAlign": [
+			"C", "E"
+		],
+		"_fEnvironment": [
+		],
+		"_fVuln": [
+		],
+		"_fRes": [],
+		"_fImm": [
+		],
+		"_fCondImm": [
+		],
+		"_fSave": [],
+		"_fSkill": [],
+		"_fSources": [
+			
+		],
+		"_fPassive": 12,
+		"_fLanguageTags": [
+		]
+	}
 ]
